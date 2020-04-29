@@ -1,0 +1,10 @@
+header h1 {
+	text-align: center;
+	float: outside;
+	font-family: Blippo;
+}
+header h1::first-letter {
+	font-family: Blippo;	
+	font-size: 2em;
+	
+} 

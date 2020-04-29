@@ -1,0 +1,73 @@
+.dropbutton {
+    display: block;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #ce1818;
+    border: #ce1818 3px solid;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    padding: 16px 80px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: 200ms all ease-in-out;
+}
+
+.drop {
+    position:center;
+    display: inline-block;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color:  #ce1818;
+    min-width: auto;
+    padding: 12px 16px;
+	}
+
+.drop-content a {
+    color: #ce1818;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop-content a:hover {
+        background-color: #ce1818;
+        text-decoration: none;
+        font-family: arial;
+        font-size: 1em;
+        font-weight: bolder;
+        text-shadow: 4px 4px 20px black, 0 3px #092834;
+        color: #f7f7f7;
+        border: #5D4343 3px solid;
+  }
+
+
+
+.drop:hover .drop-content {
+    display: block;
+    background-color: #ce1818;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bolder;
+    color: #f7f7f7;
+    border: #5D4343 3px solid;
+    border-radius: 10px;
+}
+
+.drop:hover .dropbtn {
+    background-color: #ce1818;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1em;
+    font-weight: bolder;
+    text-shadow: 4px 4px 20px black, 0 3px #092834;
+    color: #f7f7f7;
+    border: #5D4343 3px solid;
+    border-radius: 10px;
+}

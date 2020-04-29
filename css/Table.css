@@ -1,0 +1,13 @@
+th, td {
+    padding: 15px;
+    text-align: center;
+
+}
+th {
+    background-color: #8a2c2c;
+    color: white;
+    text-shadow: black;
+}
+table {
+    position: relative;
+}
